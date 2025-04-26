@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 850px;
+    width: 100vw;
+    overflow: none;
+    background-color:blanchedalmond;http://127.0.0.1:5500/html%20project1/proj3.html#Operating
+}
+
+.navcontainer{
+    width: 100vw;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.257), rgba(255, 0, 0, 0.658));
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+nav{
+    width: 100%;
+}
+
+
+#navlist{
+   
+    width: 100%;
+    padding: 15px;
+    list-style: none;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        
+    
+
+}
+
+#navlogo{ 
+    font-size: 2.8rem;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+#ancitems{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+.footerBox{
+
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.257), rgba(255, 0, 0, 0.658));
+    color: aliceblue;
+    min-height: 25px;
+    text-align: center;
+
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+
+.containerbox{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* gap: 100px; */
+    padding: 40px;
+    box-shadow: 0px 0px 30px rgb(16, 2, 2);
+    
+
+
+}
+
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    margin: 5px;
+     padding: 10px; 
+
+}
+
+
+.rightbox{
+    position:relative;
+    transition: all 0.6s linear 0s; 
+    
+   
+}
+.rightbox img{
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+     transition: all 0.6s linear 0s; 
+    
+}
+
+
+.rightbox:hover{
+    transform: scale(1.1);
+
+}
+    
+
+.leftbox{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.leftbox h2{
+    font-size: 2rem;
+    
+}
+
+.ingbox{
+     font-size: 0.8rem;
+}
+
+.recbox{
+    font-size: 0.8rem ;
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(67, 58, 58, 0.86);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+
+    transition: all 0.6s linear 0s; 
+
+}
+.rightbox:hover .overlay{
+    opacity: 1;
+}
+
+.rightbox .overlay span{
+    color: aliceblue;
+    font-size: 1.2rem;
+
+}
